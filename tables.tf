@@ -15,11 +15,6 @@ resource "google_bigquery_table" "default" {
     "name": "Item",
     "type": "STRING",
     "mode": "NULLABLE"
-  },
-{
-    "name": "price",
-    "type": "INT64",
-    "mode": "NULLABLE"
   }
 ]
 EOF
