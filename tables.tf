@@ -17,7 +17,7 @@ resource "google_bigquery_table" "default" {
     "mode": "NULLABLE"
   },
 {
-    "name": "pice",
+    "name": "price",
     "type": "INT64",
     "mode": "NULLABLE"
   }
