@@ -1,12 +1,12 @@
 steps:
 - id: 'terraform init'
-  name: 'hashicorp/terraform:1.6.0'
+  name: 'hashicorp/terraform:latest'
   args: ['init']
 
 - id: 'terraform plan'
-  name: 'hashicorp/terraform:1.6.0'
+  name: 'hashicorp/terraform:latest'
   args: ['plan']
 
 - id: 'terraform apply'
-  name: 'hashicorp/terraform:1.6.0'
+  name: 'hashicorp/terraform:latest'
   args: ['apply', '-auto-approve']
