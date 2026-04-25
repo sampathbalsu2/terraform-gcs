@@ -1,4 +1,4 @@
-resource "google_bigquery_table" "default" {
+/*resource "google_bigquery_table" "default" {
   dataset_id          = "sampath"
   table_id            = "mytable"
   deletion_protection = false # set to "true" in production
@@ -24,4 +24,4 @@ resource "google_bigquery_table" "default" {
 ]
 EOF
 
-}
+}*/
