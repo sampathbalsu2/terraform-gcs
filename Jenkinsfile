@@ -4,7 +4,7 @@ parameters{
 string(name: 'action')
 }
 stages{
-stage('build infra'){
+stage('build infrastructure'){
 steps{
 sh"""
 #!/bin/bash
